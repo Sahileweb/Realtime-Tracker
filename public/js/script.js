@@ -19,7 +19,7 @@ const socket=io();
 
  const map = L.map("map").setView([0,0],15);
  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-    attribution:"sahil mundhe"
+    attribution:"Sahil Mundhe"
  }).addTo(map);
 
  const markers={};
